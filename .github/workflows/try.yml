@@ -7,3 +7,7 @@ on:
 jobs:
   build:           #jobid
     runs-on: ubuntu-latest #runner for the job
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v6
