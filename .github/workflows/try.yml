@@ -1,0 +1,9 @@
+name: try_workflow #name of workflow
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  build:           #jobid
+    runs-on: ubuntu-latest #runner for the job
